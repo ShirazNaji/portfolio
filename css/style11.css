@@ -103,6 +103,7 @@ body{ margin-top:80px; }
 .div-Skills{
     margin-bottom:90px;
     padding: 55px 0;
+    
 }
 
 .div-Skills h3{
@@ -112,7 +113,7 @@ body{ margin-top:80px; }
 }
 
 .div-Skills p{
-    width: 500px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -204,12 +205,15 @@ transform: scale(1.5 , 1.5);
 }
 
 
-@media (max-width:567px){
+@media(min-width:300px) and (max-width:480px) {
+
+    
     
     
     .div-designer .img-fluid {
         max-height: 400px;
-        margin-right: 50px;
+        margin-top: 21px;
+        
 }
     
     
@@ -252,14 +256,19 @@ transform: scale(1.5 , 1.5);
           width: 0px;
           height: 0px;
          
-}}
+}
 
-@media (min-width:567px) and (max-width:767px){
+.div-Skills .progress {
+    width: 300px;
+}
 
-    
+}
+
+@media(min-width:481px) and (max-width:768px) {
+   
     .div-designer .img-fluid {
     
-        margin-top: 60px;
+        margin-top: 129px;
         margin-right: 30px;
 }
     
@@ -287,7 +296,7 @@ transform: scale(1.5 , 1.5);
     
     .div-Skills p{
    
-        width: 620px;
+        width: 520px;
    
    
 }
@@ -323,7 +332,7 @@ transform: scale(1.5 , 1.5);
 }
 
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:769px) and (max-width:991px){
     
     
     
